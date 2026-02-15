@@ -11,6 +11,7 @@ import App from './App.jsx'
  * - Add a `nav` > `ul` > `li` (x3). The 3 items should say:
  *   "Pricing", "About", and "Contact"
  */
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Page />
@@ -31,6 +32,13 @@ function Header() {
   return (
     <header>
       <img src="/src/assets/react.svg" width="40px" alt="React logo"/>
+      <nav>
+          <ul>
+              <li>Pricing</li>
+              <li>About</li>
+              <li>Contact</li>
+          </ul>
+      </nav>
     </header>
   )
 }
