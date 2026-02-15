@@ -8,8 +8,11 @@ import App from './App.jsx'
 /**
  * Challenge:
  * 
- * - Add a `nav` > `ul` > `li` (x3). The 3 items should say:
- *   "Pricing", "About", and "Contact"
+ * Using flexbox, line up the `li`s horizontally and put them inline
+ * with the React logo.
+ * 
+ * NOTE: for practice's sake, don't select any
+ * elements, but use classes for all styling.
  */
 
 createRoot(document.getElementById('root')).render(
@@ -30,13 +33,13 @@ function Page() {
 
 function Header() {
   return (
-    <header>
-      <img src="/src/assets/react.svg" width="40px" alt="React logo"/>
+    <header className="header">
+      <img className="nav-list" src="/src/assets/react.svg" width="40px" alt="React logo"/>
       <nav>
-          <ul>
-              <li>Pricing</li>
-              <li>About</li>
-              <li>Contact</li>
+          <ul className="nav-list">
+              <li className="nav-list-item">Pricing</li>
+              <li className="nav-list-item">About</li>
+              <li className="nav-list-item">Contact</li>
           </ul>
       </nav>
     </header>
