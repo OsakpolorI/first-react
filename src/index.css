@@ -67,24 +67,25 @@ button:focus-visible {
   }
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+header {
+    height: 90px;
+    background-color: #21222A;
+    padding: 30px 25px;
 }
 
-
-.nav-list {
-  display:flex;
-  justify-content: space-evenly;
-  list-style: none;
+nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
-.nav-list-item {
-  margin-left: 10px;
-  font-size: 1.1rem;
+nav > img {
+    width: 40px;
+    margin-right: 7px;
 }
 
-.logo {
-  width: 50px;
+nav > span {
+    color: #61DAFB;
+    font-size: 1.4rem;
+    font-weight: 700;
 }
