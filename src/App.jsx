@@ -1,11 +1,11 @@
-import Navbar from "./components/Navbar.jsx"
-import Main from "./components/Main.jsx"
+import Header from "./components/Header.jsx"
+import Entry from "./components/Entry.jsx"
 
 export default function App() {
   return (
     <>
-      <Navbar />
-      <Main />
+      <Header />
+      <Entry />
     </>
-  )
+  ) 
 }
